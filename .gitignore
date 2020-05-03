@@ -93,3 +93,6 @@ out/
 !.env.example
 
 rust/target/
+
+dist/
+dist-nodegui/

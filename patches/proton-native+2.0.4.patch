@@ -1,0 +1,13 @@
+diff --git a/node_modules/proton-native/bin/components/PickerInternal.js b/node_modules/proton-native/bin/components/PickerInternal.js
+index 6f95069..5950f97 100644
+--- a/node_modules/proton-native/bin/components/PickerInternal.js
++++ b/node_modules/proton-native/bin/components/PickerInternal.js
+@@ -69,7 +69,7 @@ exports.default = (function (p) {
+             element.setCurrentText(value);
+         },
+         children: function (children) {
+-            if (children.map(function (x) { return (x.props ? x.props.label : x); }).toString() ==
++            if (children.map && children.map(function (x) { return (x.props ? x.props.label : x); }).toString() ==
+                 itemList.toString())
+                 return;
+             for (var i = itemList.length - 1; i >= 0; i--) {
