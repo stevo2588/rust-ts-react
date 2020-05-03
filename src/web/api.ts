@@ -1,9 +1,10 @@
 import Api from '../shared/api';
 
-// TODO: Rust WASM module
+import * as wasm from "../../rust/wasm/pkg";
+
 
 export default class implements Api {
   async hello() {
-    return 'TODO';
+    return wasm.hello();
   }
 };

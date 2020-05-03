@@ -1,5 +1,5 @@
 import { ipcMain } from 'electron';
-import rustModule from '../shared/rust';
+import rustModule from '../../rust/native/nodejs';
 
 
 export default class IpcServer {

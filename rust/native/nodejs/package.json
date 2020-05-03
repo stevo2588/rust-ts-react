@@ -4,8 +4,5 @@
   "description": "Rust module",
   "main": "lib/index.js",
   "author": "Stephen A <stephen@creativelogic.me>",
-  "license": "MIT",
-  "dependencies": {
-    "neon-cli": "^0.4.0"
-  }
+  "license": "MIT"
 }
